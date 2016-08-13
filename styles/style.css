@@ -1,0 +1,406 @@
+
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover {
+  color: gray;
+}
+
+
+
+/* - - -- - GRID LAYOUT - - -- - -  -  */
+
+.grid-1, .grid-2, .grid-3, .grid-8, .grid-4, .grid-5, .grid-6, .grid-7 {
+    display: inline-block;
+    text-align: center;
+  }
+.grid-4 {
+  display: inline-block;
+  margin: 1%;
+  width:31.33%;
+}
+
+.grid-2 {
+  width: 16.66%;
+}
+
+.grid-1 {
+  width: 6.33%;
+}
+.grid-3 {
+  width: 23%;
+}
+.grid-6 {
+  width: 48%;
+  margin: 1%;
+}
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+
+/* UNIVERSAL STYLES */
+
+.center {
+  text-align: center;
+}
+
+section {
+  padding: 6vh 10% 0;
+  margin-top: 105px;
+}
+
+body {
+  font-family: 'Economica', sans-serif;
+}
+
+h1 {
+  letter-spacing: 4px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 3vh;
+  letter-spacing: 3px;
+}
+
+
+.line{
+  border-bottom: 1px solid black;
+  margin-bottom: -20px;
+}
+
+h2 span.border {
+  background-color: white;
+  padding: 0 10%;
+}
+
+
+h3 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+p {
+  margin:0 5% 2% 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p.lastpar {
+  margin:0 5% 2% 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#catering h3 {
+  padding-bottom: 2%;
+}
+/* HEADER & FOOTER */
+
+header {
+  background-image: url("../images/pngcolorbossedit.png"), linear-gradient(#D8F1FF,#fff);
+  height: 100vh;
+  position:relative;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+header div {
+  width:15%;
+}
+.fullwidth {
+width:150%;
+}
+
+.mainhead {
+  position: relative;
+}
+
+.logopos {
+  position: absolute;
+  width: 25%;
+  top: 2%;
+  left: 2%;
+}
+
+.headerphone {
+  position: absolute;
+  width: 13%;
+  height: 100%;
+  top: 1%;
+  right: .5%;
+  font-size: 25px;
+}
+
+footer {
+  padding: 5% 0 2% 0;
+  font-size: 25px;
+}
+
+footer a:hover {
+  opacity:.5;
+  font-size: 32px;
+}
+
+.zomato {
+  width:26px;
+}
+.zomato:hover {
+  opacity:.5;
+  width: 32px;
+}
+
+
+/* ______h1 ________ */
+
+
+.tall {
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+
+/* ______NAV ________ */
+nav {
+  text-align:center;
+  height: 105px;
+  width: 100%;
+  background-color:#fff;
+}
+
+#spacer {
+  display: none;
+  height: 100px;
+}
+
+nav {
+  position:relative;
+}
+
+#navlogo {
+  display:none;
+  position:absolute;
+  left:10px;
+  top: 5px;
+}
+
+#navlogo img{
+  width: 100px;
+}
+.roundbutton {
+    border: 3px solid black;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin:1%;
+    padding: 35px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.roundbutton:hover {
+opacity: .5;
+}
+
+.hidden {
+  display: none;
+}
+
+.no-padding {
+  padding: 10vh 0;
+}
+
+
+/* -- Sticky Nav --*/
+
+.is-sticky nav{
+  text-align: right;
+}
+
+.roundbutton {
+  padding: 20px 0;
+  width: 70px;
+  height: 70px;
+  border-width: 2px;
+}
+
+
+/*_____MENU______*/
+
+#menu a{
+  background-size: contain;
+  padding: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pizzabox {
+  background-image: url("/images/pizzabox2.png");
+  cursor: pointer;
+}
+
+#pizzabox:hover {
+  opacity: .5;
+  font-size: 25px;
+
+}
+
+#dinnerplate {
+  background-image: url("/images/dinnerplate.png");
+  cursor: pointer;
+}
+
+#dinnerplate:hover {
+  opacity: .5;
+  font-size: 25px;
+}
+
+.itemname{ font-weight: bold;
+}
+
+.menutext table {
+  text-align: left;
+}
+
+.menutext tr:first-of-type {
+  text-align: center;
+  letter-spacing: 2px;
+
+}
+
+.menutext h2 {
+  padding-top: 5%;
+}
+
+/*___Contact___*/
+
+#contact img {
+  width: 72%;
+  border-radius: 5%;
+  margin-bottom: 2%;
+  margin-top: 9%;
+}
+
+.address{
+  letter-spacing: 2.5px;
+  padding-bottom: 2%
+}
+
+form {
+margin: 5% 17%;
+width: 25%;
+text-align: left;
+}
+input, textarea {
+padding: 3%;
+border-radius: 3px;
+border:1px solid black;
+display:block;
+margin-bottom: 6%;
+margin-top: 2%;
+font-size: 100%;
+}
+textarea {
+resize:vertical;
+width: 100%;
+}
+
+input[type="submit"] {
+margin-top: 2%;
+color: black;
+background-color:white;
+border: 1px solid black;
+padding: 2% 20%;
+}
+input[type="submit"]:hover {
+background-color: gray;
+border-color: black;
+color: Black;
+cursor: pointer;
+}
+
+.contactdiv {
+  margin-top: 6%;
+}
+
+/*_____mediaqueries________*/
+
+@media screen and (max-width: 768px) {
+  .menutext div{
+    display: block;
+  }
+
+  .menutext .grid-4 {
+    display: block;
+    width: 100%;
+  }
+  #contact .grid-6{
+    display:block;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+#contact img {
+  width: 60%;
+}
+
+form {
+margin: 5% 20%;
+}
+
+.no-padding {
+  padding: 0;
+}
+  .roundbutton {
+    padding: 20px 0;
+    width: 70px;
+    height: 70px;
+    border-width: 2px;
+  }
+  .headerphone {
+    width: 40%;
+  }
+  header {
+    background-size: contain;
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  section {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .stackable {
+    width: 100%;
+  }
+
+  .contactdiv {
+    margin-top: 15%;
+  }
+  .is-sticky nav{
+    text-align: center;
+  }
+  #navlogo {
+    z-index:-1;
+    opacity: 0;
+    position:absolute;
+  }
+}
