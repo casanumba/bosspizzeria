@@ -23,7 +23,7 @@ $(document).ready(function(){
     duration: 300
   });
 
-  $('navlogo').scrollomatic({
+  $('logopos').scrollomatic({
     duration: 300
   });
   
