@@ -19,10 +19,14 @@ $(document).ready(function(){
   });
 
   // Use the scrollomatic plugin for smooth scrolling.
-  $('nav a' 'navlogo').scrollomatic({
+  $('nav a').scrollomatic({
     duration: 300
   });
 
+  $('navlogo').scrollomatic({
+    duration: 300
+  });
+  
   // Once the nav is scrolling through the page we want to show the nav logo.
   $('nav').on('sticky-start', function() {
     $("#navlogo").show('fast');
