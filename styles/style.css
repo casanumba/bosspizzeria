@@ -401,6 +401,7 @@ margin: 5% 20%;
   }
   .is-sticky nav{
     text-align: center;
+    margin-bottom: 20%;
   }
   #navlogo {
     z-index:-1;
