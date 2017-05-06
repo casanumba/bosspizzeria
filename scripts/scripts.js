@@ -22,6 +22,11 @@ $(document).ready(function(){
   $('nav a').scrollomatic({
     duration: 300
   });
+  
+    // Use the scrollomatic plugin for smooth scrolling.
+  $('logopos').scrollomatic({
+    duration: 300
+  });
 
   
   // Once the nav is scrolling through the page we want to show the nav logo.
