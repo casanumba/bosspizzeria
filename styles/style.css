@@ -399,10 +399,10 @@ margin: 5% 20%;
   .contactdiv {
     margin-top: 15%;
   }
-  .is-sticky nav{
-    text-align: center;
-    margin-bottom: 20%;
+  .is-sticky nav {
+    text-align: center;  
   }
+  
   #navlogo {
     z-index:-1;
     opacity: 0;
