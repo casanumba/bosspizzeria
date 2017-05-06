@@ -19,7 +19,7 @@ $(document).ready(function(){
   });
 
   // Use the scrollomatic plugin for smooth scrolling.
-  $('nav a, .logopos').scrollomatic({
+  $('nav a, logopos').scrollomatic({
     duration: 300
   });
   
