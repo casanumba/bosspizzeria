@@ -1,5 +1,6 @@
 // We initialise document ready so things don't happen until the document is ready.
 $(document).ready(function(){
+  console.log("hello peekaboo")
 
   // When we click the pizza box we are going to toggle the dine in section.
   $("#pizzabox").on('click', function() {
